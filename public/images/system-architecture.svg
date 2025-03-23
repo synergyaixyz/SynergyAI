@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="gradFrontend" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+    <linearGradient id="gradApplication" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+    <linearGradient id="gradBlockchain" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+    <linearGradient id="gradInfrastructure" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc" rx="8" ry="8" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">SynergyAI System Architecture</text>
+  
+  <!-- Frontend Layer -->
+  <rect x="150" y="80" width="500" height="100" rx="8" ry="8" fill="url(#gradFrontend)" filter="url(#shadow)" />
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Frontend Layer</text>
+  
+  <rect x="170" y="125" width="140" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="240" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Web Application</text>
+  
+  <rect x="330" y="125" width="140" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Mobile Client</text>
+  
+  <rect x="490" y="125" width="140" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="560" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Wallet Integration</text>
+  
+  <!-- Application Layer -->
+  <rect x="150" y="200" width="500" height="120" rx="8" ry="8" fill="url(#gradApplication)" filter="url(#shadow)" />
+  <text x="400" y="230" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Application Layer</text>
+  
+  <rect x="170" y="255" width="140" height="50" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="240" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">API Gateway</text>
+  <text x="240" y="290" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">REST/GraphQL</text>
+  
+  <rect x="330" y="255" width="140" height="50" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="400" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Task Scheduler</text>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Workload Distribution</text>
+  
+  <rect x="490" y="255" width="140" height="50" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="560" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Data Privacy Engine</text>
+  <text x="560" y="290" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Encryption/Sharing</text>
+  
+  <!-- Blockchain Layer -->
+  <rect x="150" y="340" width="500" height="100" rx="8" ry="8" fill="url(#gradBlockchain)" filter="url(#shadow)" />
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Blockchain Layer</text>
+  
+  <rect x="170" y="385" width="140" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="240" y="410" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Smart Contracts</text>
+  
+  <rect x="330" y="385" width="140" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Layer 2 Solution</text>
+  
+  <rect x="490" y="385" width="140" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="560" y="410" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Consensus Mechanism</text>
+  
+  <!-- Infrastructure Layer -->
+  <rect x="150" y="460" width="500" height="100" rx="8" ry="8" fill="url(#gradInfrastructure)" filter="url(#shadow)" />
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Infrastructure Layer</text>
+  
+  <rect x="170" y="505" width="110" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="225" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">IPFS Storage</text>
+  
+  <rect x="290" y="505" width="110" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="345" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Database Cluster</text>
+  
+  <rect x="410" y="505" width="110" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="465" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Compute Network</text>
+  
+  <rect x="530" y="505" width="110" height="40" rx="5" ry="5" fill="white" opacity="0.9" />
+  <text x="585" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1e293b">Monitoring</text>
+  
+  <!-- Connection Lines -->
+  <line x1="400" y1="180" x2="400" y2="200" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="320" x2="400" y2="340" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="440" x2="400" y2="460" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Arrows -->
+  <polygon points="400,195 395,185 405,185" fill="#94a3b8" />
+  <polygon points="400,335 395,325 405,325" fill="#94a3b8" />
+  <polygon points="400,455 395,445 405,445" fill="#94a3b8" />
+</svg> 

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+ <defs>
+ <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#8B5CF6" />
+ <stop offset="50%" stop-color="#EC4899" />
+ <stop offset="100%" stop-color="#3B82F6" />
+ </linearGradient>
+ <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+ <stop offset="0%" stop-color="#1E293B" />
+ <stop offset="100%" stop-color="#0F172A" />
+ </linearGradient>
+ </defs>
+ <!-- Background -->
+ <circle cx="50" cy="50" r="40" fill="url(#bgGradient)" />
+ <!-- Dynamic flowing lines -->
+ <g fill="none" stroke="url(#flowGradient)" stroke-width="1.2" opacity="0.7">
+ <path d="M26,40 C36,30 40,50 50,50 C60,50 64,30 74,40" />
+ <path d="M26,60 C36,70 40,50 50,50 C60,50 64,70 74,60" />
+ <path d="M40,26 C30,36 50,40 50,50 C50,60 30,64 40,74" />
+ <path d="M60,26 C70,36 50,40 50,50 C50,60 70,64 60,74" />
+ <!-- Decorative wave lines -->
+ <path d="M30,50 C34,46 36,54 40,50 C44,46 46,54 50,50 C54,46 56,54 60,50 C64,46 66,54 70,50"
+ stroke-width="0.6" opacity="0.5" />
+ <path d="M50,30 C46,34 54,36 50,40 C46,44 54,46 50,50 C46,54 54,56 50,60 C46,64 54,66 50,70"
+ stroke-width="0.6" opacity="0.5" />
+ </g>
+ <!-- Dynamic nodes -->
+ <g fill="url(#flowGradient)">
+ <circle cx="50" cy="50" r="2.4" />
+ <circle cx="40" cy="40" r="1.6" />
+ <circle cx="60" cy="40" r="1.6" />
+ <circle cx="40" cy="60" r="1.6" />
+ <circle cx="60" cy="60" r="1.6" />
+ <circle cx="36" cy="50" r="1.2" />
+ <circle cx="64" cy="50" r="1.2" />
+ <circle cx="50" cy="36" r="1.2" />
+ <circle cx="50" cy="64" r="1.2" />
+ </g>
+ <!-- Dynamic flowing S symbol -->
+ <g>
+ <path d="M46,44 C40,42 42,34 50,34 C58,34 60,42 54,44 C48,46 48,54 56,54 C64,54 62,46 56,44"
+ stroke="white" stroke-width="2.4" stroke-linecap="round" fill="none" />
+ <!-- Decorative particle effects -->
+ <circle cx="46" cy="34" r="0.8" fill="white" opacity="0.8" />
+ <circle cx="54" cy="34" r="0.6" fill="white" opacity="0.6" />
+ <circle cx="58" cy="38" r="0.4" fill="white" opacity="0.7" />
+ <circle cx="46" cy="48" r="0.6" fill="white" opacity="0.6" />
+ <circle cx="42" cy="52" r="0.4" fill="white" opacity="0.7" />
+ <circle cx="54" cy="54" r="0.8" fill="white" opacity="0.8" />
+ <circle cx="58" cy="50" r="0.6" fill="white" opacity="0.6" />
+ <circle cx="46" cy="56" r="0.4" fill="white" opacity="0.7" />
+ </g>
+</svg> 

@@ -1,0 +1,49 @@
+{
+  "name": "synergy-ai",
+  "version": "0.1.0",
+  "description": "SynergyAI: A collaborative AI and crypto economic ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "keywords": [
+    "AI",
+    "blockchain",
+    "distributed computing",
+    "data sovereignty",
+    "web3"
+  ],
+  "author": "SynergyAI Team",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0",
+    "ethers": "^6.3.0",
+    "web3": "^1.9.0",
+    "mongoose": "^7.1.1",
+    "ipfs-http-client": "^60.0.0",
+    "crypto-js": "^4.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "tailwindcss": "^3.3.2",
+    "daisyui": "^2.51.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.7",
+    "typescript": "^5.0.4",
+    "eslint": "^8.41.0",
+    "eslint-config-next": "^13.4.4",
+    "jest": "^29.5.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  }
+}
