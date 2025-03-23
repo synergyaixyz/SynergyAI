@@ -1,7 +1,7 @@
 # SynergyAI
 
 <div align="center">
-  <img src="public/images/process-flow.png" alt="SynergyAI Logo" width="300"/>
+  <img src="public/images/synergy-logo.svg" alt="SynergyAI Logo" width="300"/>
   <br>
   <br>
   <a href="https://github.com/synergyaixyz/SynergyAI/releases">
