@@ -149,4 +149,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - GitHub: [@synergyaixyz](https://github.com/synergyaixyz)
 - Website: [synergyai.xyz](https://synergyai.xyz)
-- Email: info@synergyai.xyz
+- Twitter: [SynergyAI_](https://x.com/SynergyAI_)
