@@ -148,5 +148,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📞 Contact
 
 - GitHub: [@synergyaixyz](https://github.com/synergyaixyz)
-- Website: [synergyai.xyz](https://synergyai.xyz)
+- Website: [synergy-ai.xyz](https://www.synergy-ai.xyz/)
 - Twitter: [SynergyAI_](https://x.com/SynergyAI_)
