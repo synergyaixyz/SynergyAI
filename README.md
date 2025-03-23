@@ -59,7 +59,7 @@ SynergyAI is a revolutionary ecosystem designed to democratize AI computing reso
 
 The SynergyAI platform is built on a four-layer architecture:
 
-1. **Blockchain Layer**: Smart contracts for token management, data access control, and compute resource management
+1. **Blockchain Layer**: Solana smart contracts (programs) for token management, data access control, and compute resource management
 2. **Compute Layer**: Node network for task execution and resource allocation
 3. **Data Layer**: Encryption and storage systems for secure data management
 4. **Application Layer**: Developer tools and user applications
@@ -67,7 +67,7 @@ The SynergyAI platform is built on a four-layer architecture:
 ## 💻 Technical Stack
 
 - **Frontend**: React, Next.js
-- **Blockchain**: Ethereum, Solidity
+- **Blockchain**: Solana, Rust
 - **Backend**: Node.js, Express
 - **Storage**: IPFS, Encrypted distributed storage
 - **Authentication**: Signature-based verification
@@ -90,7 +90,7 @@ SynergyAI/
 │   │   │   └── validation/ # Validation APIs
 │   │   └── ...            # Frontend pages
 │   └── styles/             # CSS and styling
-├── contracts/              # Smart contracts
+├── programs/               # Solana programs (smart contracts)
 ├── docs/                   # Documentation
 ├── public/                 # Static assets
 ├── scripts/                # Utility scripts
@@ -116,7 +116,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see the application runn
 
 - Node.js 16.x or higher
 - npm 8.x or higher
-- Metamask or another Web3 wallet for blockchain interactions
+- Phantom or another Solana-compatible wallet for blockchain interactions
 
 ## 🛠️ Development
 
